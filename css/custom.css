@@ -23,12 +23,7 @@ p {
 }
 
 a {
-  margin: 0em 0.5em;
-  padding: 0.7em 1.5em;
   text-decoration: none;
-  color: white;
-  background: #193d70;
-  border-radius: 0.2em;
   transition: all .3s;
 }
 
@@ -56,6 +51,16 @@ footer {
   width: 30%;
   display: block;
   transition: all .3s;
+}
+
+
+.social a {
+  margin: 0em 0.5em;
+  padding: 0.7em 1.5em;
+  text-decoration: none;
+  color: white;
+  background: #193d70;
+  border-radius: 0.2em;
 }
 
 .social a:hover {
@@ -91,6 +96,32 @@ footer {
   width: 30%;
 }
 
+.project {
+  margin: 0.5rem;
+  width: 30%;
+  display: inline-grid;
+}
+
+.project p {
+  color: #93a4aa;
+  font-weight: 100;
+}
+
+.project a {
+  color: #5EA4F7;
+  border-bottom: 1px dotted #5EA4F7;
+}
+
+.project img {
+  border-radius: 0.5em;
+  max-width: 100%;
+  transition: all 0.3s;
+}
+
+.project img:hover {
+  transform: scale(1.05);
+}
+
 .final-section {
   background-color: #FED766;
   padding: 2em;
@@ -106,6 +137,8 @@ footer {
   border: 1px solid #193d70;
   border-radius: 2em;
   padding: 1em 5rem;
+  color: white;
+  background-color: #193d70;
 }
 
 #contact:hover {
@@ -127,11 +160,6 @@ footer {
 @media screen and (max-width: 499px) {
   h1 {
     font-size: 2.2rem;
-  }
-
-  a {
-    margin: 0em 0.1em;
-    padding: 0.8em;
   }
 
   .about {
@@ -160,8 +188,17 @@ footer {
     display: none;
   }
 
+  .social a {
+    margin: 0em 0.1em;
+    padding: 0.8em;
+  }
+
   .skill {
     width: 30%;
+  }
+
+  .project {
+    width: 90%;
   }
 
   #top-img {
@@ -175,13 +212,13 @@ footer {
 }
 
 @media (min-width: 500px) and (max-width: 749px) {
-  a {
+  .social a {
     margin: 0em 0.1em;
     padding: 0.8em;
   }
 
   .projects, .skill-list, .about-me, .final {
-    width: 80%;
+    width: 90%;
   }
 
   .social {
@@ -197,8 +234,17 @@ footer {
     font-size: 0.6em;
   }
 
+  .about-me p {
+    width: 100%;
+  }
+
   .skill {
     width: 30%;
+  }
+
+  .project {
+    margin: 0.5em;
+    width: 45%;
   }
 
   #profile-img {
