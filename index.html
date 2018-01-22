@@ -9,9 +9,13 @@
   <body>
     <div class="container">
       <div class="head-section">
-        <img id="top-img" src="/portfolio/img/jumbo.jpg" alt="houses night lights and snow">
+        <picture>
+          <source media="(min-width: 750px)" srcset="/portfolio/img/jumbo-lg.jpg">
+          <source media="(min-width: 500px)" srcset="/portfolio/img/jumbo-md.jpg">
+          <img id="top-img" src="/portfolio/img/jumbo-sm.jpg" alt="houses night lights and snow">
+        </picture>
         <center>
-          <img id="profile-img" src="https://pbs.twimg.com/profile_images/925100245146656768/KvQL2ei5_400x400.jpg" alt="me drinking beer">
+          <img id="profile-img" src="/portfolio/img/profile.jpg" alt="me drinking beer">
         </center>
       </div><!-- end head section -->
 
@@ -42,7 +46,7 @@
         <div class="about-me">
           <h1>About Me</h1>
           <p>
-            Hi, my name is Alexander although my friends call me Sascha.
+            Hi, my name is Alexander but my friends call me Sascha.
             I was born and raised in Bremen, Germany. I graduated from a
             North American Highschool and studied Computer Information Technology at
             Nothern Arizona University for 4 semesters.
@@ -52,7 +56,7 @@
             In early 2016 I started to learn Web development and Programming in general
             both based on the courses from my University and privatly through books and
             online course such as Udemy, Udacity and Lynda. Most recently I was accepted
-            into the Google Udacity Scholarship for the  Nanodegree "Mobile Web Specialist"
+            into the Google Udacity Scholarship for the "Mobile Web Specialist" Nanodegree.
           </p>
 
           <p>
@@ -152,12 +156,12 @@
           <div class="project">
             <img src="/portfolio/img/projects/christian.png" alt="christian social media">
             <p>
-              <a href="https://oremosadios.com">Oremos a Dios</a>
+              <a href="https://www.oremosadios.com/">Oremos a Dios</a>
               is a social media site that enables you to share
               your prayers with thousands of Christians around
               the world.
             </p>
-          </div>
+          </div><!-- end christian project -->
 
           <div class="project">
             <img src="/portfolio/img/projects/nasa.png" alt="">
@@ -167,16 +171,16 @@
               based on the official NASA API where user's can see the images in a
               timeline.
             </p>
-          </div>
+          </div><!-- end nasa project -->
 
           <div class="project">
             <img src="/portfolio/img/projects/chat.png" alt="">
             <p>
               <a href="https://flash-chat-ca9f8.firebaseapp.com/">Flash Chat</a>
-              is a realtime chat app where everyone can join the conversation
+              is a realtime web chat app where everyone can join the conversation
               after singing up.
             </p>
-          </div>
+          </div><!-- end chat project -->
 
           <div class="project">
             <img src="/portfolio/img/projects/japanese.png" alt="">
@@ -185,17 +189,17 @@
               <a href="https://github.com/Mycroft1891/swift_box/tree/master/Swift%203/Kana%20Trainer">Kana Trainer</a>.
               It makes learning the Japanese writing system a breeze.
             </p>
-          </div>
+          </div><!-- end japanese project -->
 
           <div class="project">
             <img src="/portfolio/img/projects/blog.png" alt="">
             <p>
-              As essential blogging these days, I build and customized
+              As essential as blogging these days is, I build and customized
               <a href="https://mycroft1891.github.io/">my own Blog</a>
               on Github Pages which is a great alternative to the mainstream
-              blogging platforms especially because it is free.
+              blogging platforms like Wordpress.
             </p>
-          </div>
+          </div><!-- end blog project -->
 
           <div class="project">
             <img src="/portfolio/img/projects/bitcoin.png" alt="">
@@ -205,7 +209,7 @@
               <a href="https://github.com/Mycroft1891/swift_box/tree/master/Swift%203/BitcoinTicker">Bitcoin Tracker</a>
               for iOS.
             </p>
-          </div>
+          </div><!-- end bitcoin project -->
 
         </div><!-- end project section -->
       </div>
