@@ -1,4 +1,5 @@
 var staticCacheName = 'portfolio-v1';
+var allCaches = [staticCacheName];
 
 self.addEventListener('install', function(event) {
   event.waitUntil(
@@ -26,7 +27,8 @@ self.addEventListener('activate', function(event) {
     caches.keys().then(function(cacheNames) {
       return Promise.all(
         cacheNames.filter(function(cacheName) {
-          return cacheName.startsWith('portfolio-')
+          return cacheName.startsWith('portfolio-')  &&
+                 !allCaches.includes(cacheName);
         }).map(function(cacheName) {
           return caches.delete(cacheName);
         })
