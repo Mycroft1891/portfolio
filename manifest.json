@@ -1,0 +1,15 @@
+{
+  "short_name": "Alexander",
+  "name": "Alexander Luna",
+  "icons": [
+    {
+      "src": "/portfolio/img/favicon.svg",
+      "sizes": "512x512",
+      "type": "image/svg"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#2685cb",
+  "background_color": "#ffffff"
+}
