@@ -1,57 +1,243 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ⚡ lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
     <meta name="theme-color" content="#2685cb">
     <link rel="manifest" href="/portfolio/manifest.json">
-    <link rel="amphtml" href="/portfolio/index.amp.html">
+    <link rel="canonical" href="/portfolio/index.html">
     <title>Alexander Luna</title>
-    <link rel="stylesheet" href="/portfolio/css/custom.css">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112012666-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-112012666-1');
-    </script>
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <style amp-custom>
+    /* global */
+    html, body {
+      margin: 0px;
+      padding: 0px;
+      font-family: sans-serif;
+    }
+
+    h1 {
+      font-size: 3.2rem;
+      font-weight: 500;
+    }
+
+    h2 {
+      margin: 1.5em auto auto auto;
+      padding: 0.5em;
+    }
+
+    p {
+      color: #524e4d
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    footer {
+      background-color: #252a30;
+      color: white;
+      text-align: center;
+      padding: 4rem;
+    }
+
+    /* general classes and ids */
+    .social {
+      margin: 2em auto;
+      text-align: center;
+      max-width: 100%;
+    }
+
+    .social img {
+      width: 2%;
+      margin-bottom: -7px;
+    }
+
+    .skill-list img {
+      margin: 1em auto;
+      width: 30%;
+      display: block;
+    }
+
+
+    .social a {
+      margin: 0em 0.5em;
+      padding: 0.7em 1.5em;
+      text-decoration: none;
+      color: white;
+      background: #193d70;
+      border-radius: 0.2em;
+    }
+
+    .skill {
+      margin: 1em auto;
+      display: inline-block;
+      width: 22%;
+      color: #93a4aa;
+    }
+
+    .projects, .skill-list, .about-me, .final {
+      padding: 1em;
+      margin: 3.5em auto;
+      text-align: center;
+    }
+
+    .about {
+      margin-top: 10rem;
+      padding: .1rem;
+      background-color: #ececec;
+    }
+
+    .about-me p {
+      padding: 0em 0.5em;
+      font-weight: normal;
+      display: inline-flex;
+      width: 30%;
+    }
+
+    .project {
+      margin: 0.5rem;
+      width: 30%;
+      display: inline-grid;
+    }
+
+    .project p {
+      color: #93a4aa;
+      font-weight: 100;
+    }
+
+    .project a {
+      color: #5EA4F7;
+      border-bottom: 1px dotted #5EA4F7;
+    }
+
+    .project img {
+      border-radius: 0.5em;
+      max-width: 100%;
+      transition: all 0.3s;
+    }
+
+    .final-section {
+      background-color: #FED766;
+      padding: 2em;
+    }
+
+    .final-section p {
+      font-size: 1.5rem;
+      margin-bottom: 4rem;
+    }
+
+    #contact {
+      margin-top: 1rem;
+      border: 1px solid #193d70;
+      border-radius: 2em;
+      padding: 1em 5rem;
+      color: white;
+      background-color: #193d70;
+    }
+
+    #profile-img {
+      border: 5px solid white;
+      border-radius: 50%;
+    }
+
+    #top-img {
+      width: 100%;
+      max-width: 100%;
+    }
+
+    /* screen specific */
+    @media screen and (max-width: 499px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      .about {
+        margin-top: 5rem;
+      }
+
+      .about-me p {
+        padding: 0em 0.5em;
+        width: 90%;
+      }
+
+      .projects, .skill-list, .about-me, .final {
+        padding: 0rem;
+        max-width: 100%;
+      }
+
+      .social {
+        margin: 1em auto;
+      }
+
+      .social span {
+        font-size: 0.8rem;
+      }
+
+      .social a {
+        margin: 0em 0.1em;
+        padding: 0.5em 0.2em;
+      }
+
+      .skill {
+        width: 30%;
+      }
+
+      .project {
+        width: 90%;
+      }
+
+      #top-img {
+        height: 40vh;
+      }
+
+      #profile-img {
+        width: 25%;
+        margin-top: -12%;
+      }
+    }
+    </style>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
   </head>
   <body>
+    <amp-analytics type="googleanalytics">
+    <script type="application/json">
+    {
+      "vars": {
+        "account": "UA-112012666-1"
+      },
+      "triggers": {
+        "trackPageview": {
+          "on": "visible",
+          "request": "pageview"
+        }
+      }
+    }
+    </script>
+    </amp-analytics>
     <div class="container">
       <div class="head-section">
-        <picture>
-          <source media="(min-width: 750px)" srcset="/portfolio/img/jumbo-lg.jpg">
-          <source media="(min-width: 500px)" srcset="/portfolio/img/jumbo-md.jpg">
-          <img id="top-img" src="/portfolio/img/jumbo-sm.jpg" alt="houses night lights and snow">
-        </picture>
+        <amp-img layout="responsive" width="500" height="200" id="top-img" src="/portfolio/img/jumbo-sm.jpg" alt="houses night lights and snow"></amp-img>
         <center>
-          <picture>
-            <source srcset="/portfolio/img/profile.webp" type="image/webp">
-            <img id="profile-img" src="/portfolio/img/profile.jpg" alt="me drinking beer">
-          </picture>
+          <amp-img layout="responsive" width="50" height="50" id="profile-img" src="/portfolio/img/profile.jpg" alt="me drinking beer"></amp-img>
         </center>
       </div><!-- end head section -->
 
       <div class="social">
         <a href="https://github.com/Mycroft1891/">
-          <img src="/portfolio/img/icon-github.svg" alt="github icon">
           <span>Github</span>
         </a>
         <a href="https://stackoverflow.com/users/5281693/alexander-luna">
-          <img src="/portfolio/img/icon-stackoverflow.svg" alt="Stack overflow icon">
           <span>Stack Overflow</span>
         </a>
         <a href="https://codepen.io/mr-moon">
-          <img src="/portfolio/img/icon-codepen.svg" alt="codepen icon">
           <span>CodePen</span>
         </a>
         <a href="http://mycroft1891.github.io/">
-          <img src="/portfolio/img/icon-rss.svg" alt="Blog icon">
           <span>Blog</span>
         </a>
         <a href="https://twitter.com/mr_moon95">
-          <img src="/portfolio/img/icon-twitter.svg" alt="Twitter icon">
           <span>Twitter</span>
         </a>
       </div><!-- end social bar -->
@@ -86,79 +272,64 @@
           <h1>What I use daily</h1>
           <h2>Languages</h2>
           <div class="skill">
-            <img src="/portfolio/img/icon-html.svg" alt="html icon">
             <span>HTML</span>
           </div>
 
           <div class="skill">
-            <img src="/portfolio/img/icon-css.svg" alt="css icon">
             <span>CSS</span>
           </div>
 
           <div class="skill">
-            <img src="/portfolio/img/icon-js.svg" alt="javascript icon">
             <span>Javascript</span>
           </div>
 
           <div class="skill">
-            <img src="/portfolio/img/icon-jquery.svg" alt="jquery icon">
             <span>JQuery</span>
           </div>
 
           <div class="skill">
-            <img src="/portfolio/img/icon-nodejs.svg" alt="nodejs icon">
             <span>NodeJS</span>
           </div>
 
           <div class="skill">
-            <img src="/portfolio/img/icon-ruby.svg" alt="ruby icon">
             <span>Ruby</span>
           </div>
 
           <div class="skill">
-            <img src="/portfolio/img/icon-rails.svg" alt="ruby on rails icon">
             <span>Ruby on Rails</span>
           </div>
 
           <div class="skill">
-            <img src="/portfolio/img/icon-swift.svg" alt="swift icon">
             <span>Swift</span>
           </div><!-- end languages -->
 
           <h2>Infrastructure</h2>
           <div class="skill">
-            <img src="/portfolio/img/icon-firebase.svg" alt="firebase icon">
             <span>Firebase</span>
           </div>
 
           <div class="skill">
-            <img src="/portfolio/img/icon-heroku.svg" alt="heroku icon">
             <span>Heroku</span>
           </div>
 
           <div class="skill">
-            <img src="/portfolio/img/icon-aws.svg" alt="amazon web services icon">
             <span>AWS</span>
           </div>
 
           <div class="skill">
-            <img src="/portfolio/img/icon-linux.svg" alt="linux icon">
             <span>Linux/Unix</span>
           </div><!-- end Infrastructure -->
 
           <h2>Tools & Services</h2>
           <div class="skill">
-            <img src="/portfolio/img/icon-git.svg" alt="git icon">
             <span>Git</span>
           </div>
 
           <div class="skill">
-            <img src="/portfolio/img/icon-babel.svg" alt="babel icon">
             <span>Babel</span>
           </div>
 
           <div class="skill">
-            <img src="/portfolio/img/icon-webpack.svg" alt="webpack icon">
             <span>Webpack</span>
           </div><!-- end tools & services -->
         </div><!-- end skill list -->
@@ -168,10 +339,7 @@
         <div class="projects">
           <h1>Projects</h1>
           <div class="project">
-            <picture>
-              <source srcset="/portfolio/img/projects/christian.webp" type="image/webp">
-              <img src="/portfolio/img/projects/christian.png" alt="christian social media">
-            </picture>
+            <amp-img layout="responsive" width="410" height="205" src="/portfolio/img/projects/christian.png" alt="christian social media"></amp-img>
             <p>
               <a href="https://www.oremosadios.com/">Oremos a Dios</a>
               is a social media site that enables you to share
@@ -181,10 +349,7 @@
           </div><!-- end christian project -->
 
           <div class="project">
-            <picture>
-              <source srcset="/portfolio/img/projects/nasa.webp" type="image/webp">
-              <img src="/portfolio/img/projects/nasa.png" alt="nasa image of the day">
-            </picture>
+            <amp-img layout="responsive" width="410" height="205" src="/portfolio/img/projects/nasa.png" alt="nasa image of the day"></amp-img>
             <p>
               A NASA
               <a href="https://nasa-udacity.firebaseapp.com/">Image of the Day viewer</a>
@@ -194,10 +359,7 @@
           </div><!-- end nasa project -->
 
           <div class="project">
-            <picture>
-              <source srcset="/portfolio/img/projects/chat.webp" type="image/webp">
-              <img src="/portfolio/img/projects/chat.png" alt="chat web app">
-            </picture>
+            <amp-img layout="responsive" width="410" height="205" src="/portfolio/img/projects/chat.png" alt="chat web app"></amp-img>
             <p>
               <a href="https://flash-chat-ca9f8.firebaseapp.com/">Flash Chat</a>
               is a realtime web chat app where everyone can join the conversation
@@ -206,10 +368,7 @@
           </div><!-- end chat project -->
 
           <div class="project">
-            <picture>
-              <source srcset="/portfolio/img/projects/japanese.webp" type="image/webp">
-              <img src="/portfolio/img/projects/japanese.png" alt="japanese app">
-            </picture>
+            <amp-img layout="responsive" width="410" height="205" src="/portfolio/img/projects/japanese.png" alt="japanese app"></amp-img>
             <p>
               I made this Japanese Quiz Game App for iOS and called it
               <a href="https://github.com/Mycroft1891/swift_box/tree/master/Swift%203/Kana%20Trainer">Kana Trainer</a>.
@@ -218,10 +377,7 @@
           </div><!-- end japanese project -->
 
           <div class="project">
-            <picture>
-              <source srcset="/portfolio/img/projects/blog.webp" type="image/webp">
-              <img src="/portfolio/img/projects/blog.png" alt="blog interface">
-            </picture>
+            <amp-img layout="responsive" width="410" height="205" src="/portfolio/img/projects/blog.png" alt="blog interface"></amp-img>
             <p>
               As essential as blogging these days is, I build and customized
               <a href="https://mycroft1891.github.io/">my own Blog</a>
@@ -231,10 +387,7 @@
           </div><!-- end blog project -->
 
           <div class="project">
-            <picture>
-              <source srcset="/portfolio/img/projects/bitcoin.webp" type="image/webp">
-              <img src="/portfolio/img/projects/bitcoin.png" alt="bitcoin app">
-            </picture>
+            <amp-img layout="responsive" width="410" height="205" src="/portfolio/img/projects/bitcoin.png" alt="bitcoin app"></amp-img>
             <p>
               2016 was a big year for Bitcoin and Cryptocurrencies.
               That's why I made this
@@ -260,7 +413,6 @@
       <footer>
         Made with &#9829; by me &copy; 2018
       </footer>
-      <script src="/portfolio/js/index.js"></script>
     </div>
   </body>
 </html>
