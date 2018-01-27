@@ -1,4 +1,4 @@
-var staticCacheName = 'portfolio-v1';
+var staticCacheName = 'portfolio-v2';
 var allCaches = [staticCacheName];
 
 self.addEventListener('install', function(event) {
