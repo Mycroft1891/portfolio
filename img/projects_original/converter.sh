@@ -2,7 +2,7 @@
 
 SRC="$1"
 LOW=50
-convert $SRC.png -quality $LOW -define webp:lossless=true $SRC.webp
+convert $SRC.jpg -quality $LOW -resize 40% "$SRC"_resized.jpg
 
 # To use this script,
 # run the following from a terminal

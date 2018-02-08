@@ -1,4 +1,4 @@
-var staticCacheName = 'portfolio-v2';
+var staticCacheName = 'portfolio-v3';
 var allCaches = [staticCacheName];
 
 self.addEventListener('install', function(event) {
@@ -33,13 +33,13 @@ self.addEventListener('install', function(event) {
         'img/icon-webpack.svg',
         'img/projects/bitcoin.png',
         'img/projects/blog.png',
-        'img/projects/chat.png',
+        'img/projects/earthquake.png',
         'img/projects/christian.png',
         'img/projects/japanese.png',
         'img/projects/nasa.png',
         'img/projects/bitcoin.webp',
         'img/projects/blog.webp',
-        'img/projects/chat.webp',
+        'img/projects/earthquake.webp',
         'img/projects/christian.webp',
         'img/projects/japanese.webp',
         'img/projects/nasa.webp',
