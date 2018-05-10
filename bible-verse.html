@@ -5,18 +5,63 @@
     <title>Bible Verse</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style media="screen">
+      a {
+        bottom: 1rem;
+        right: 1rem;
+        position: absolute;
+        padding: 0.5rem 2rem;
+        color: whitesmoke;
+        background-color: steelblue;
+        border: 1px solid steelblue;
+        border-radius: 0.15rem;
+        text-decoration: none;
+      }
+      a:hover {
+        color: steelblue;
+        background-color: whitesmoke;
+      }
+      button {
+        font-size: 1rem;
+        color: whitesmoke;
+        margin-right: 0.5rem;
+        padding: 0.5rem 2rem;
+        background-color: transparent;
+        border: 1px solid whitesmoke;
+        border-radius: 0.2rem;
+      }
+      button:hover {
+        color: black;
+        background-color: whitesmoke;
+      }
       body {
         background: url(img/background.jpg) center fixed;
         background-size: cover;
+        color: whitesmoke;
+        font-family: sans-serif;
+      }
+      h1:before {
+        content: open-quote;
+        font-size: 5rem;
+      }
+      h1:after {
+        content: close-quote;
+        font-size: 5rem;
       }
     </style>
   </head>
   <body>
+    <button type="button" data-key="english" class="language">Eng</button>
+    <button type="button" data-key="spanish" class="language">Esp</button>
     <center>
       <h1 id="verse">
+        <span>"</span>
         I the Lord do not change. So you, the descendants of Jacob, are not destroyed
+        <span>"</span>
       </h1>
+      <h2 id="verse_book">Matias 2:5</h2>
     </center>
+    <a href="#">Share</a>
+    <script src="js/versesDB.json"></script>
     <script src="js/verse.js"></script>
   </body>
 </html>
