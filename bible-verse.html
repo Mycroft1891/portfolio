@@ -5,47 +5,79 @@
     <title>Bible Verse</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style media="screen">
-      a {
+      center {
+        margin-top: 20vh;
+      }
+      #twitter {
         bottom: 1rem;
         right: 1rem;
         position: absolute;
         padding: 0.5rem 2rem;
-        color: whitesmoke;
-        background-color: steelblue;
-        border: 1px solid steelblue;
+        color: #f5f5f5;
+        background-color: #4682b4;
+        border: 1px solid #4682b4;
         border-radius: 0.15rem;
         text-decoration: none;
       }
-      a:hover {
-        color: steelblue;
-        background-color: whitesmoke;
+      #twitter:hover {
+        color: #4682b4;
+        background-color: #f5f5f5;
       }
       button {
         font-size: 1rem;
-        color: whitesmoke;
+        color: #f5f5f5;
         margin-right: 0.5rem;
         padding: 0.5rem 2rem;
         background-color: transparent;
-        border: 1px solid whitesmoke;
+        border: 1px solid #f5f5f5;
         border-radius: 0.2rem;
       }
       button:hover {
         color: black;
-        background-color: whitesmoke;
+        background-color: #f5f5f5;
       }
       body {
         background: url(img/background.jpg) center fixed;
         background-size: cover;
-        color: whitesmoke;
+        color: #f5f5f5;
         font-family: sans-serif;
       }
       h1:before {
         content: open-quote;
-        font-size: 5rem;
+        display: inline;
+        height: 0;
+        line-height: 0;
+        left: -10px;
+        position: relative;
+        top: 30px;
+        color: #ccc;
+        font-size: 3em;
       }
-      h1:after {
+      h1::after {
         content: close-quote;
-        font-size: 5rem;
+        display: inline;
+        height: 0;
+        line-height: 0;
+        left: 10px;
+        position: relative;
+        top: 55px;
+        color: #ccc;
+        font-size: 3em;
+      }
+      .credits {
+        position: absolute;
+        bottom: 0rem;
+        padding: 1.2rem 0rem;
+        color: #4d5a67;
+      }
+      .credits a {
+        padding: 0.1rem;
+        color: #2f4f4f;
+        text-decoration: none;
+        border-bottom: 2px dotted;
+      }
+      .credits a:hover {
+        color: #708090;
       }
     </style>
   </head>
@@ -60,7 +92,10 @@
       </h1>
       <h2 id="verse_book">Matias 2:5</h2>
     </center>
-    <a href="#">Share</a>
+    <div class="credits">
+      <span>Designed by </span><a href="https://github.com/Mycroft1891/">Alexander</a>
+    </div>
+    <a id="twitter" href="#" target="_blank">Share</a>
     <script src="js/versesDB.json"></script>
     <script src="js/verse.js"></script>
   </body>
