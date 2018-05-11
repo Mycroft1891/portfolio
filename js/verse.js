@@ -1,6 +1,8 @@
 // bible verse selection logic
 var verse_paragraph = document.getElementById('verse');
 var verse_id = document.location.hash.split("=")[1];
+var base_url = "https://mycroft1891.github.io/portfolio/bible-verse.html";
+var verse = "";
 
 function get_day_of_year() {
   if (typeof verse_id != 'undefined') return verse_id;
@@ -17,10 +19,20 @@ function get_verse(event) {
   var language = event ? event.target.dataset.key : "english"
   var day = get_day_of_year();
   verse_paragraph.innerText = verses[day][language];
+  verse = verses[day][language];
+  setupShareAction();
+}
+
+function setupShareAction() {
+  var twitterButton = document.getElementById('twitter');
+  var twitter_url = "https://twitter.com/intent/tweet?text="
+  var tweet = encodeURI(verse + " " + base_url);
+  twitterButton.href = twitter_url + tweet;
 }
 
 window.onload = function() {
   get_verse();
+  setupShareAction();
   var language_list = document.querySelectorAll('.language');
   language_list.forEach(lang => lang.addEventListener('click', get_verse));
 }
