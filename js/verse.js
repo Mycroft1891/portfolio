@@ -1,5 +1,6 @@
 // bible verse selection logic
 var verse_paragraph = document.getElementById('verse');
+var book_paragraph = document.getElementById('verse_book');
 var verse_id = document.location.hash.split("=")[1];
 var base_url = "https://mycroft1891.github.io/portfolio/bible-verse.html";
 var verse = "";
@@ -18,8 +19,9 @@ function get_day_of_year() {
 function get_verse(event) {
   var language = event ? event.target.dataset.key : "english"
   var day = get_day_of_year();
-  verse_paragraph.innerText = verses[day][language];
-  verse = verses[day][language];
+  verse_paragraph.innerText = verses[day][language]['verse'];
+  book_paragraph.innerText = verses[day][language]['book'];
+  verse = verses[day][language]['verse'];
   setupShareAction();
 }
 
