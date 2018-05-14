@@ -1,8 +1,8 @@
 verses = [
   {
     "english": {
-      "verse": "",
-      "book": "",
+      "verse": "For I, Yahweh, don’t change; therefore you, sons of Jacob, are not consumed",
+      "book": "Malachi 3:6",
     },
     "spanish": {
       "verse": "Yo soy el Señor tu Dios y nunca cambio",
@@ -11,8 +11,8 @@ verses = [
   },
   {
     "english": {
-      "verse": "",
-      "book": "",
+      "verse": "I'm full of mercy and grace and I overflow with love",
+      "book": "Psalm 103:8",
     },
     "spanish": {
       "verse": "Estoy lleno de misericordia y gracia y reboso de amor",
@@ -21,8 +21,8 @@ verses = [
   },
   {
     "english": {
-      "verse": "",
-      "book": "",
+      "verse": "The intentions of my heart will stay standfast forever",
+      "book": "Psalm 33:11",
     },
     "spanish": {
       "verse": "Las intenciones de Mi corazón se mantendrán firmes para siempre",
@@ -31,8 +31,8 @@ verses = [
   },
   {
     "english": {
-      "verse": "",
-      "book": "",
+      "verse": "I created you in My own image with My special blessing",
+      "book": "Genesis 1:27-28",
     },
     "spanish": {
       "verse": "Te he creado a Mi imagen y con Mi bendición especial",
@@ -41,8 +41,8 @@ verses = [
   },
   {
     "english": {
-      "verse": "",
-      "book": "",
+      "verse": "I chose you to be adopted into My family before creation",
+      "book": "Ephesians 1:4-5",
     },
     "spanish": {
       "verse": "He decidido adoptarte en Mi familia antes de la creación del Mundo",
@@ -51,8 +51,8 @@ verses = [
   },
   {
     "english": {
-      "verse": "",
-      "book": "",
+      "verse": "I delivered you from darkness into the kingdom of My beloved Son",
+      "book": "Colossians 1:12-13",
     },
     "spanish": {
       "verse": "Yo te guié de las tinieblas al reino de Mi amado Hijo",
@@ -61,8 +61,8 @@ verses = [
   },
   {
     "english": {
-      "verse": "",
-      "book": "",
+      "verse": "I have given you eternal life because you have believed in Jesus Crhist",
+      "book": "John 3:16",
     },
     "spanish": {
       "verse": "Te he dado una vida eterna porque has creído en Jesucristo",
@@ -71,8 +71,8 @@ verses = [
   },
   {
     "english": {
-      "verse": "",
-      "book": "",
+      "verse": "I sent the Spirit of My Son into your heart so you could call Me father",
+      "book": "Galatians 4:6",
     },
     "spanish": {
       "verse": "He enviado el Espíritu de Mi Hijo a tu corazón para que me puedas llamar Padre",
@@ -105,8 +105,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Mi plan para tu futuro está lleno de esperanza",
+      "book": "Jeremías 29:11",
     }
   },
   {
@@ -115,8 +115,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Yo obro en tu vida a través de los deseos de tu corazón",
+      "book": "Filipenses 2:13",
     }
   },
   {
@@ -125,8 +125,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Yo te daré pastos verdes para que descanses y te guiaré hacia aguas calmadas",
+      "book": "Salmos 23:2",
     }
   },
   {
@@ -135,8 +135,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Yo doy Mi Espíritu en medidas ilimitadas",
+      "book": "Juan 3:34",
     }
   },
   {
@@ -145,8 +145,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Yo voy a sostener tu mano para protegerte de cualquier caída",
+      "book": "Salmos 37:24",
     }
   },
   {
@@ -155,8 +155,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Yo te proveeré con todas las cosas buenas que necesites para cumplir Mi voluntad",
+      "book": "Hebreos 13:20-21",
     }
   },
   {
@@ -165,8 +165,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Yo te disciplinaré con amor como un padre que ama a sus hijos",
+      "book": "Proverbios 3:11-12",
     }
   },
   {
@@ -175,8 +175,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Mi poder descansará sobre ti cuando te sientas débil",
+      "book": "2 Corintios 12:9",
     }
   },
   {
@@ -185,8 +185,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Yo voy a bendecir tu vida y te cuidaré siempre",
+      "book": "Números 6:24",
     }
   },
   {
@@ -195,8 +195,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Si Me buscas con todo tu corazón, tú Me encontrarás",
+      "book": "Jeremías 29:13",
     }
   },
   {
@@ -205,8 +205,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Yo voy a proteger tu vida y te libraré de la malicia",
+      "book": "Salmos 97:10",
     }
   },
   {
@@ -215,8 +215,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Entrégame todas tu preocupaciones porque de verdad me importas",
+      "book": "1 Pedro 5:7",
     }
   },
   {
@@ -225,8 +225,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "No dejaré que te tientan más allá de lo que tú puedas aguantar",
+      "book": "1 Corintios 10:13",
     }
   },
   {
@@ -235,8 +235,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Mi amor sobrevivirá en cualquier situación",
+      "book": "1 Corintios 13:4-7",
     }
   },
   {
@@ -245,8 +245,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Yo no retendré ninguna bendición de aquellos con un corazón puro",
+      "book": "Salmos 84:11",
     }
   },
   {
@@ -255,8 +255,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Yo busco los extranjeros y ayudo a los huérfanos y las viudas",
+      "book": "Salmos 146:9",
     }
   },
   {
@@ -265,8 +265,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Yo cuidaré aquellos que tengan un corazón puro",
+      "book": "Salmos 116:6",
     }
   },
   {
@@ -275,8 +275,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Tú eres más que vencedor por medio de Mi amor en Jesucristo",
+      "book": "Romanos 8:37",
     }
   },
   {
@@ -285,8 +285,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Cuando Jesús aparezca, recibirás una corona de gloria que nunca dejará de brillar",
+      "book": "1 Pedro 5:3",
     }
   },
   {
@@ -295,8 +295,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Al final del tiempo, Mis seguidores leales brillarán como el Sol en Mi reino",
+      "book": "Mateo 13:43",
     }
   },
   {
@@ -305,8 +305,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Ni una de Mis promesas te fallarán",
+      "book": "Josué 23:14",
     }
   },
   {
@@ -315,8 +315,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Estoy sentado en los cielos y Mi reino reina sobre todo",
+      "book": "Salmos 103:13",
     }
   },
   {
@@ -325,8 +325,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Todos mis planes se cumplirán porque Yo conozco el fin desde el principio",
+      "book": "Isaías 46:10",
     }
   },
   {
@@ -335,8 +335,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Te he conocido desde antes que nacieras y te he diseñado para mis propósitos",
+      "book": "Jeremías 1:5",
     }
   },
   {
@@ -345,8 +345,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Tú eres Santo y libre de culpa porque Jesucristo murió por ti",
+      "book": "Colosenses 1:21-22",
     }
   },
   {
@@ -355,8 +355,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Yo he borrado tus pecados y los he disuelto como la neblina",
+      "book": "Isaías 44:22",
     }
   },
   {
@@ -365,8 +365,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Yo te he sellado con Mi Espíritu para garantizar tu herencia",
+      "book": "Efesios 1:13-14",
     }
   },
   {
@@ -375,8 +375,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Yo voy a ser un verdadero Padre para ti",
+      "book": "2 Corintios 6:18",
     }
   },
   {
@@ -385,8 +385,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Yo te miraré y te mostraré el mejor camino",
+      "book": "Salmos 32:8",
     }
   },
   {
@@ -395,8 +395,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Confía en Mí con todo tu corazón y Yo te guiaré",
+      "book": "Proverbios 3:5-6",
     }
   },
   {
@@ -405,8 +405,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Yo te voy a dar paz en todos los momentos y en cualquier situación",
+      "book": "2 Tesalonicenses 3:16",
     }
   },
   {
@@ -415,8 +415,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Llámame cuando estés en problemas y Yo te salvaré",
+      "book": "Salmos 91:15",
     }
   },
   {
@@ -425,8 +425,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Yo soy tu amparo y el lugar seguro donde te puedes refugiar de tus enemigos",
+      "book": "Salmos 61:3",
     }
   },
   {
@@ -435,8 +435,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Si tú esperas por Mí, Yo trabajaré para tu bien",
+      "book": "Isaías 64:4",
     }
   },
   {
@@ -445,8 +445,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Mi amor nunca te fallará",
+      "book": "1 Corintios 13:8",
     }
   },
   {
@@ -455,8 +455,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Yo soy tu Pastor y voy a suplir todas tus necesidades",
+      "book": "Salmos 23:1",
     }
   },
   {
@@ -465,8 +465,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Yo te mantendré seguro porque nadie te puede tomar de Mi mano",
+      "book": "Juan 10:29",
     }
   },
   {
@@ -475,8 +475,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Yo voy a curar tu corazón y voy a atender todas tus heridas",
+      "book": "Salmos 147:3",
     }
   },
   {
@@ -485,8 +485,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Yo voy a bendecirte en tiempos de luto con Mi consuelo",
+      "book": "Mateo 5:4",
     }
   },
   {
@@ -495,8 +495,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Tú vas a encontrar libertad donde sea que Mi Espíritu habite",
+      "book": "2 Corintios 3:17",
     }
   },
   {
@@ -505,8 +505,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Tú puedes estar seguro y depender del amor que tengo por ti",
+      "book": "1 Juan 4:16",
     }
   },
   {
@@ -515,8 +515,8 @@ verses = [
       "book": "",
     },
     "spanish": {
-      "verse": "",
-      "book": "",
+      "verse": "Tú puedes confiar en Mí porque nunca te olvidaré",
+      "book": "Salmos 9:10",
     }
   },
   {
