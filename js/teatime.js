@@ -1,14 +1,16 @@
 var tea = {
-  "white": 60,
+  "white": 5,
   "green": 120,
   "black": 240,
   "infusion": 600
 }
 
-var tea_time = tea["green"];
+let timer = undefined;
+var tea_time = tea.green;
 let time_field = document.getElementById('time-field');
 let start_button = document.getElementById('start');
 let cancel_button = document.getElementById('cancel');
+let tea_buttons = document.querySelectorAll('button');
 
 function ms_in_minutes(ms) {
   let seconds = ms%60;
@@ -25,20 +27,28 @@ function changeTea(event) {
 }
 
 function startCountDown() {
-  console.log(this);
   start_button.disabled = true;
   cancel_button.disabled = false;
   let time = tea_time;
-  var timer = setInterval(function() {
+  timer = setInterval(function() {
     console.log(time);
+    if (time == 0) clearInterval(timer);
     time_field.innerText = ms_in_minutes(time);
-    time -= 1;
-  }, 1000)
+    time--;
+  }, 1000);
+}
+
+function cancelCountDown() {
+  console.log(tea.green);
+  clearInterval(timer);
+  start_button.disabled = false;
+  cancel_button.disabled = true;
+  time_field.innerText = ms_in_minutes(tea.green);
 }
 
 window.onload = function() {
   start_button.addEventListener("click", startCountDown);
-  let tea_buttons = document.querySelectorAll('button');
+  cancel_button.addEventListener("click", cancelCountDown);
   tea_buttons.forEach(button => button.addEventListener("click", changeTea));
   time_field.innerText = ms_in_minutes(tea.green);
 }
