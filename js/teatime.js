@@ -6,13 +6,14 @@ var tea = {
 }
 
 let timer = undefined;
-var tea_time = tea.green;
+let tea_time = tea.green;
 let time_field = document.getElementById('time-field');
 let start_button = document.getElementById('start');
 let cancel_button = document.getElementById('cancel');
-let tea_buttons = document.querySelectorAll('button');
+let tea_buttons = document.querySelectorAll('.teas');
 
 function ms_in_minutes(ms) {
+  console.log("MS: ", ms);
   let seconds = ms%60;
   let minutes = Math.floor(ms/60);
   minutes = minutes < 10 ? "0" + minutes : minutes;
@@ -31,19 +32,17 @@ function startCountDown() {
   cancel_button.disabled = false;
   let time = tea_time;
   timer = setInterval(function() {
-    console.log(time);
-    if (time == 0) clearInterval(timer);
+    if (time == 0) return cancelCountDown();
     time_field.innerText = ms_in_minutes(time);
     time--;
   }, 1000);
 }
 
 function cancelCountDown() {
-  console.log(tea.green);
   clearInterval(timer);
   start_button.disabled = false;
   cancel_button.disabled = true;
-  time_field.innerText = ms_in_minutes(tea.green);
+  time_field.innerText =  ms_in_minutes(tea.green);
 }
 
 window.onload = function() {
