@@ -7,13 +7,12 @@ var tea = {
 
 let timer = undefined;
 let tea_time = tea.green;
-let time_field = document.getElementById('time-field');
-let start_button = document.getElementById('start');
-let cancel_button = document.getElementById('cancel');
-let tea_buttons = document.querySelectorAll('.teas');
+const time_field = document.getElementById('time-field');
+const start_button = document.getElementById('start');
+const cancel_button = document.getElementById('cancel');
+const tea_buttons = document.querySelectorAll('.teas');
 
 function ms_in_minutes(ms) {
-  console.log("MS: ", ms);
   let seconds = ms%60;
   let minutes = Math.floor(ms/60);
   minutes = minutes < 10 ? "0" + minutes : minutes;
@@ -22,7 +21,8 @@ function ms_in_minutes(ms) {
 }
 
 function changeTea(event) {
-  let type = this.dataset.key;
+  cancelCountDown();
+  const type = this.dataset.key;
   tea_time = tea[type];
   time_field.innerText = ms_in_minutes(tea[type]);
 }
