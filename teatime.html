@@ -9,10 +9,33 @@
         background-color: #7ab3ef;
       }
       button {
+        color: whitesmoke;
         padding: 0.5rem 1rem;
+        border-radius: 0.1rem;
+      }
+      .teas {
         background-color: #7ab3ef;
         border: 1px solid white;
-        border-radius: 0.1rem;
+      }
+      .teas:hover {
+        color: #7ab3ef;
+        background-color: whitesmoke;
+      }
+      #start {
+        background-color: green;
+        border: 1px solid green;
+      }
+      #start:disabled {
+        background-color: rgba(0, 128, 0, 0.39);
+        border: 1px solid rgba(0 , 128, 0, 0.39);
+      }
+      #cancel {
+        background-color: red;
+        border: 1px solid red;
+      }
+      #cancel:disabled {
+        background-color: rgba(255, 0, 0, 0.39);
+        border: 1px solid rgba(255, 0, 0, 0.39);
       }
       #teapot {
         height: 50vh;
@@ -21,16 +44,16 @@
   </head>
   <body>
     <center>
-      <button data-key="white">White</button>
-      <button data-key="green">Green</button>
-      <button data-key="black">Black</button>
-      <button data-key="infusion">Infusion</button>
+      <button class="teas" data-key="white">White</button>
+      <button class="teas" data-key="green">Green</button>
+      <button class="teas" data-key="black">Black</button>
+      <button class="teas" data-key="infusion">Infusion</button>
       <br>
       <img id="teapot" src="img/teapot.svg" alt="teapot">
       <h2>Time</h2>
       <h2 id="time-field">05:30</h2>
-      <button data-key="start">Start to Brew</button>
-      <button disabled>Cancel</button>
+      <button id="start">Start to Brew</button>
+      <button id="cancel" disabled>Cancel</button>
     </center>
     <script src="js/teatime.js"></script>
   </body>
