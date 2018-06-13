@@ -4,6 +4,7 @@ var book_paragraph = document.getElementById('verse_book');
 var verse_id = document.location.hash.split("=")[1];
 var base_url = "https://mycroft1891.github.io/portfolio/bible-verse.html";
 var verse = "";
+var book = ""
 
 function get_day_of_year() {
   if (typeof verse_id != 'undefined') return verse_id;
@@ -17,18 +18,19 @@ function get_day_of_year() {
 }
 
 function get_verse(event) {
-  var language = event ? event.target.dataset.key : "english"
+  var language = event ? event.target.dataset.key : "spanish"
   var day = get_day_of_year();
-  verse_paragraph.innerText = verses[day][language]['verse'];
-  book_paragraph.innerText = verses[day][language]['book'];
-  verse = verses[day][language]['verse'];
+  verse_paragraph.innerText = verses[0][day][language]['verse'];
+  book_paragraph.innerText = verses[0][day][language]['book'];
+  verse = verses[0][day][language]['verse'];
+  book = verses[0][day][language]['book']
   setupShareAction();
 }
 
 function setupShareAction() {
   var twitterButton = document.getElementById('twitter');
   var twitter_url = "https://twitter.com/intent/tweet?text="
-  var tweet = encodeURI(verse + " " + base_url);
+  var tweet = encodeURI(verse + " " + book + " " + base_url);
   twitterButton.href = twitter_url + tweet;
 }
 
