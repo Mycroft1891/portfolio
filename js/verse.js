@@ -40,5 +40,3 @@ window.onload = function() {
   var language_list = document.querySelectorAll('.language');
   language_list.forEach(lang => lang.addEventListener('click', get_verse));
 }
-
-word   word   word    
