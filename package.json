@@ -1,0 +1,14 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "git@github.com:Mycroft1891/portfolio.git",
+  "scripts": {
+    "start": "httpster -p 1234"
+  },
+  "author": "Mycroft1891 <mycroft1891@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "httpster": "^1.0.3"
+  }
+}
