@@ -1,4 +1,5 @@
-// bible verse selection logic
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js', {scope: './'})
+
 var verse_paragraph = document.getElementById('verse');
 var book_paragraph = document.getElementById('verse_book');
 var verse_id = document.location.hash.split("=")[1];
